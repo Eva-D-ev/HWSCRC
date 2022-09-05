@@ -1,3 +1,4 @@
 return {
-  "The HWID"
+  "674C72BD-6EC4-4D67-975B-CFFAF9889019",
+  "HWID"
 }
