@@ -7,6 +7,7 @@ local copy = Instance.new("TextButton")
 local cords = Instance.new("TextLabel")
 local uis = game:GetService("UserInputService")
 --Properties:
+syn.protect_gui(coordgui)
 coordgui.Name = "coordgui"
 coordgui.Parent = game.CoreGui
 
