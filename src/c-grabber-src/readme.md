@@ -1,1 +1,1 @@
-# this script was not made by me its a fork of it!!!!
+# This is an edited version of another script, although I don't know where this script is from. 
