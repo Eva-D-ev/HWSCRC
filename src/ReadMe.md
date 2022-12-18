@@ -1,2 +1,1 @@
-# wow you made it this far dang
-**you okay?**
+# The code is in the file in the folder inside this folder
