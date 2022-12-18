@@ -5,6 +5,7 @@ local credit = Instance.new("TextLabel")
 local grab = Instance.new("TextButton")
 local copy = Instance.new("TextButton")
 local cords = Instance.new("TextLabel")
+local uis = game:GetService("UserInputService")
 --Properties:
 coordgui.Name = "coordgui"
 coordgui.Parent = game.CoreGui
@@ -78,4 +79,11 @@ end)
 
 copy.MouseButton1Down:Connect(function()
     setclipboard(""..cords.Text)
+end)
+uis.InputBegan:Connect(function(key)
+    if key.Keycode == Enum.Keycode.X then
+        cords.Text = tostring(game.Players.LocalPlayer.Character.HumanoidRootPart.Position)
+    elseif key.Keycode == Enum.Keycode.Z then
+        setclipboard(""..cords.Text)
+    end
 end)
